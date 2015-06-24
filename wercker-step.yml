@@ -1,5 +1,5 @@
 name: gox
-version: 0.2.1
+version: 0.2.3
 description: Cross-compiling golang project with mitchellh/gox
 keywords:
   - go
@@ -13,4 +13,6 @@ properties:
     ldflags:
       type: string
     output:
+      type: string
+    dest:
       type: string

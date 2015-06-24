@@ -23,9 +23,10 @@ You can control build with some option from `wercker.yml`:
 ```yaml
 steps:
    - tcnksm/gox:
-     os: "darwin linux windows" # OS to cross-compile
-     arch: "386 amd64"          # ARCH to cross-compile
-     output: "$WERCKER_OUTPUT_DIR/pkg/{{.OS}}_{{.Arch}}/{{.Dir}}" # output directory
+     os: "darwin linux windows"                         # OS to cross-compile
+     arch: "386 amd64"                                  # ARCH to cross-compile
+     dest: "$WERCKER_OUTPUT_DIR/$WERCKER_GIT_BRANCH    # dir to write output to
+     output: "{{.Dir}}_{{.OS}}_{{.Arch}}"               # override output format
 ```
 
 ## Preferred Box
