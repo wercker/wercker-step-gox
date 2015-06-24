@@ -25,6 +25,7 @@ steps:
    - tcnksm/gox:
      os: "darwin linux windows" # OS to cross-compile
      arch: "386 amd64"          # ARCH to cross-compile
+     output: "$WERCKER_OUTPUT_DIR/pkg/{{.OS}}_{{.Arch}}/{{.Dir}}" # output directory
 ```
 
 ## Preferred Box

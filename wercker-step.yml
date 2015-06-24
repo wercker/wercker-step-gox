@@ -1,7 +1,7 @@
 name: gox
 version: 0.1.4
 description: Cross-compiling golang project with mitchellh/gox
-kyewords:
+keywords:
   - go
   - golang
   - cross-compile
@@ -11,4 +11,6 @@ properties:
     os:
       type: string
     ldflags:
+      type: string
+    output:
       type: string
