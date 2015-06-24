@@ -18,4 +18,9 @@ Initial release
 
 - Nothing
 
+## 0.2.0 (2015-06-24)
+
+### Added
+
+- output flag
 
