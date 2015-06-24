@@ -9,7 +9,7 @@ XC_DEST="$WERCKER_GOX_DEST"
 
 
 XC_DEST=${XC_DEST:-$WERCKER_DEST_DIR/pkg}
-XC_OUTPUT=${XC_OUTPUT:-"{{.OS}}_{{.Arch}}/{{.Dir}"}
+XC_OUTPUT=${XC_OUTPUT:-"{{.OS}}_{{.Arch}}/{{.Dir}}"}
 XC_ARCH=${XC_ARCH:-386 amd64 arm}
 XC_OS=${XC_OS:-darwin linux windows freebsd openbsd netbsd plan9}
 
