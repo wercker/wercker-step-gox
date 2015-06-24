@@ -18,4 +18,4 @@ gox \
     -ldflags="${XC_LDFLAGS}"\
     -output "${XC_OUTPUT}"
 
-ls -l ${WERCKER_OUTPUT_DIR}/pkg
+ls -l ${XC_OUTPUT}/pkg
