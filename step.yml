@@ -1,5 +1,5 @@
 name: gox
-version: 1.0.0
+version: 1.0.1
 summary: Cross-compiling golang project with mitchellh/gox
 tags:
   - go
